@@ -2,8 +2,8 @@
 int main()
 {
 long long int i,j,a,b;
-scanf("%d",&a);
-scanf("%d",&b);
+scanf("%lld",&a);
+scanf("%lld",&b);
 while(b!=0)
 {
 j=*a;
