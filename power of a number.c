@@ -1,14 +1,15 @@
 #include<stdio.h>
 int main()
 {
-long long int i,j,a,b;
-scanf("%lld",&a);
-scanf("%lld",&b);
+long long int j=1;
+int a,b;
+scanf("%d",&a);
+scanf("%d",&b);
 while(b!=0)
 {
-j=*a;
+j*=a;
 --b;
 }
-printf("%lld",result);
+printf("%lld",j);
 return 0;
 }
